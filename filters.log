@@ -14,3 +14,9 @@
 2025-12-18 13:01:41 **** Device 4001 Recalibration ****
 2025-12-18 13:01:41 omems-signal-processing repo commit: e63a7d1 16-Dec-2025 13:50:32 +0000
 2025-12-18 13:01:41 Wrote single channel eq file: 4001-20251218-130141
+2025-12-18 13:05:40 Logging to: ..\omems-filters\filters.log
+2025-12-18 13:06:01 Logging to: ..\omems-filters\filters.log
+2025-12-18 13:06:49 Logging to: ..\omems-filters\filters.log
+2025-12-18 13:09:21 **** Device 4002 Recalibration ****
+2025-12-18 13:09:21 omems-signal-processing repo commit: e63a7d1 16-Dec-2025 13:50:32 +0000
+2025-12-18 13:09:21 Wrote single channel eq file: 4002-20251218-130921
