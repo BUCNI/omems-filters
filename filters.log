@@ -46,3 +46,7 @@
 2026-02-05 17:04:24 **** Device 1234 Recalibration ****
 2026-02-05 17:04:24 omems-signal-processing repo commit: 76a51f7 23-Jan-2026 17:20:30 +0000
 2026-02-05 17:04:24 Wrote single channel eq file: 1234-20260205-170424
+2026-02-05 17:06:45 Logging to: ..\omems-filters\filters.log
+2026-02-05 17:09:35 **** Device 1234 Recalibration ****
+2026-02-05 17:09:35 omems-signal-processing repo commit: 76a51f7 23-Jan-2026 17:20:30 +0000
+2026-02-05 17:09:35 Wrote single channel eq file: 1234-20260205-170935
