@@ -84,3 +84,7 @@
 2026-03-24 13:01:59 **** Device 1002 Recalibration ****
 2026-03-24 13:01:59 omems-signal-processing repo commit: d414a55 05-Mar-2026 18:42:52 +0000
 2026-03-24 13:01:59 Wrote single channel calibration results file: 1002-20260324-130159
+2026-03-24 13:05:53 Logging to: ..\omems-filters\filters.log
+2026-03-24 13:08:04 **** Device 1001 Recalibration ****
+2026-03-24 13:08:04 omems-signal-processing repo commit: d414a55 05-Mar-2026 18:42:52 +0000
+2026-03-24 13:08:04 Wrote single channel calibration results file: 1001-20260324-130804
