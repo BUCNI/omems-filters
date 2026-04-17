@@ -229,3 +229,13 @@
 2026-04-17 12:49:36 omems-signal-processing repo commit: aee9498 17-Apr-2026 12:20:42 +0000
 2026-04-17 12:49:36 Wrote single channel calibration results file: 1234-20260417-124936
 2026-04-17 12:51:04 **** Device 1234 Calibration 1234-20260417-124936 ****
+2026-04-17 13:04:39 Logging to: ..\omems-filters\filters.log
+2026-04-17 13:04:41 Connecting to Behringer ECM-8000...
+2026-04-17 13:04:44 **** Device 1234 Quality Assurance Test ****
+2026-04-17 13:04:44 Repo commit: aee9498 17-Apr-2026 12:20:42 +0000
+2026-04-17 13:04:56 Device 1234 Unequalised mean: -10.7867 dB
+2026-04-17 13:05:03 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\1234-20260417-124936.mat Unequalised mean: -10.7513 dB
+2026-04-17 13:05:03 Difference -0.035326 dB
+2026-04-17 13:05:14 Device 1234 Equalised mean: -20.0006 dB
+2026-04-17 13:05:14 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\1234-20260417-124936.mat Equalised mean: -19.98 dB
+2026-04-17 13:05:14 Difference -0.020638 dB
