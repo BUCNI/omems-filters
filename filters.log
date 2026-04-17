@@ -224,3 +224,7 @@
 2026-04-17 12:43:16 Device 1234 Equalised mean: -19.308 dB
 2026-04-17 12:43:17 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\1234-20260417-122442.mat Equalised mean: -19.6615 dB
 2026-04-17 12:43:17 Difference 0.35352 dB
+2026-04-17 12:49:36 Logging to: ..\omems-filters\filters.log
+2026-04-17 12:49:36 **** Device 1234 Calibration ****
+2026-04-17 12:49:36 omems-signal-processing repo commit: aee9498 17-Apr-2026 12:20:42 +0000
+2026-04-17 12:49:36 Wrote single channel calibration results file: 1234-20260417-124936
