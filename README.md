@@ -5,7 +5,7 @@ Equalisation filters, script and log file for users of OMEMS MRI earphones.
 
 The original pair of OMEMS installed in the BUCNI Prisma scanner have now been labelled with additional red stickers marked "OLD". A new pair of OMEMS has also been added to the scanner equipment and can be found in the OMEMS drawer next to the scanner.
 
-### **** Photos of old and new OMEMS pairs in drawer go here ****
+![Photo of old and new OMEMS pairs in scanner room drawer](resources/IMG_2478_small.jpg)
 
 ### **** IMPORTANT NOTE ****
 
