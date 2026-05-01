@@ -375,3 +375,5 @@
 2026-05-01 11:53:17 **** Device 4002 Calibration ****
 2026-05-01 11:53:17 omems-signal-processing repo commit: cf48a0c 30-Apr-2026 11:02:10 +0000
 2026-05-01 11:53:17 **** Device 4002 Calibration 4002-20260501-115317 ****
+2026-05-01 11:58:44 Logging to: ..\omems-filters\filters.log
+2026-05-01 12:07:28 **** New stereo filter 4001-20260501-113747---4002-20260501-115317---EarCoupler.mat ****
