@@ -23,6 +23,14 @@ eqfilter = load(filter_file);
 fns = fieldnames(eqfilter);
 eqfilter = eqfilter.(fns{1});
 
+% Warn if transposed.
+if size(eqfilter, 1) < size(eqfilter,2)
+    warning('Filter seem to be a wide matrix, i.e. "transposed". Correcting...')
+    eqfilter=eqfilter.';
+end
+
+% Check filter file is now in expected stereo format.
+
 if size(eqfilter, 2) ~= 2
     error('Must be a two channel (i.e. stereo) filter')
 end
