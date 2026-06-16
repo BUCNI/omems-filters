@@ -1150,3 +1150,7 @@
 2026-06-16 11:22:59 **** Device 1234 Calibration ****
 2026-06-16 11:22:59 omems-signal-processing repo commit: d1487f6 16-Jun-2026 09:44:04 +0000
 2026-06-16 11:23:00 **** Device 1234 Calibration 1234-20260616-112300 ****
+2026-06-16 11:27:36 Logging to: ..\omems-filters\filters.log
+2026-06-16 11:27:36 **** Device 1234 Calibration ****
+2026-06-16 11:27:36 omems-signal-processing repo commit: d1487f6 16-Jun-2026 09:44:04 +0000
+2026-06-16 11:27:37 **** Device 1234 Calibration 1234-20260616-112736 ****
