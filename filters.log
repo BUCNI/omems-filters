@@ -1261,3 +1261,7 @@
 2026-06-17 18:53:11 **** Device 4003 Calibration ****
 2026-06-17 18:53:11 omems-signal-processing repo commit: fe738a7 16-Jun-2026 17:16:16 +0000
 2026-06-17 18:53:11 **** Device 4003 Calibration 4003-20260617-185311 ****
+2026-06-17 18:59:02 Logging to: ..\omems-filters\filters.log
+2026-06-17 18:59:02 **** Device 4004 Calibration ****
+2026-06-17 18:59:03 omems-signal-processing repo commit: fe738a7 16-Jun-2026 17:16:16 +0000
+2026-06-17 18:59:03 **** Device 4004 Calibration 4004-20260617-185903 ****
