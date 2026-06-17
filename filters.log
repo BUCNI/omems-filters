@@ -1257,3 +1257,7 @@
 2026-06-16 17:08:15 omems-signal-processing repo commit: b94a850 16-Jun-2026 12:03:26 +0000
 2026-06-16 17:08:15 **** Device 4004 Calibration 4004-20260616-170815 ****
 2026-06-16 17:08:58 **** New stereo filter 4003-20260616-170306---4004-20260616-170815-flat.mat (voicing: flat) ****
+2026-06-17 18:53:10 Logging to: ..\omems-filters\filters.log
+2026-06-17 18:53:11 **** Device 4003 Calibration ****
+2026-06-17 18:53:11 omems-signal-processing repo commit: fe738a7 16-Jun-2026 17:16:16 +0000
+2026-06-17 18:53:11 **** Device 4003 Calibration 4003-20260617-185311 ****
