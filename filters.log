@@ -1435,3 +1435,7 @@
 2026-06-24 18:21:03 **** Device 4003 Calibration ****
 2026-06-24 18:21:03 omems-signal-processing repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
 2026-06-24 18:21:03 **** Device 4003 Calibration 4003-20260624-182103 ****
+2026-06-24 18:24:16 Logging to: ..\omems-filters\filters.log
+2026-06-24 18:24:16 **** Device 4004 Calibration ****
+2026-06-24 18:24:16 omems-signal-processing repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
+2026-06-24 18:24:16 **** Device 4004 Calibration 4004-20260624-182416 ****
