@@ -1377,3 +1377,13 @@
 2026-06-24 11:38:04 Device 4002 Equalised mean: -18.5712 dB
 2026-06-24 11:38:04 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\4002-20260622-155531.mat Equalised mean: -19.9546 dB
 2026-06-24 11:38:04 Difference 1.3835 dB
+2026-06-24 11:38:42 Logging to: ..\omems-filters\filters.log
+2026-06-24 11:38:48 Connecting to Behringer ECM-8000...
+2026-06-24 11:38:53 **** Device 4002 Quality Assurance Test ****
+2026-06-24 11:38:53 Repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
+2026-06-24 11:39:04 Device 4002 Unequalised mean: -12.5586 dB
+2026-06-24 11:39:07 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\4002-20260622-155531.mat Unequalised mean: -12.9868 dB
+2026-06-24 11:39:07 Difference 0.42827 dB
+2026-06-24 11:39:18 Device 4002 Equalised mean: -19.4828 dB
+2026-06-24 11:39:18 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\4002-20260622-155531.mat Equalised mean: -19.9546 dB
+2026-06-24 11:39:18 Difference 0.47181 dB
