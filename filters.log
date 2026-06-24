@@ -1440,3 +1440,18 @@
 2026-06-24 18:24:16 omems-signal-processing repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
 2026-06-24 18:24:16 **** Device 4004 Calibration 4004-20260624-182416 ****
 2026-06-24 18:24:44 **** New stereo filter 4003-20260624-182103---4004-20260624-182416-flat.mat (voicing: flat) ****
+2026-06-24 19:45:13 Logging to: ..\omems-filters\filters.log
+2026-06-24 19:45:19 Connecting to Behringer ECM-8000...
+2026-06-24 19:45:21 **** Device 4003 Quality Assurance Test ****
+2026-06-24 19:45:21 Repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
+2026-06-24 19:45:32 Device 4003 Unequalised mean: -77.2838 dB
+2026-06-24 19:45:39 Logging to: ..\omems-filters\filters.log
+2026-06-24 19:45:43 Connecting to Behringer ECM-8000...
+2026-06-24 19:45:45 **** Device 4003 Quality Assurance Test ****
+2026-06-24 19:45:46 Repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
+2026-06-24 19:45:56 Device 4003 Unequalised mean: -14.7503 dB
+2026-06-24 19:46:01 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\4003-20260624-182103.mat Unequalised mean: -14.2979 dB
+2026-06-24 19:46:01 Difference -0.45248 dB
+2026-06-24 19:46:12 Device 4003 Equalised mean: -20.3172 dB
+2026-06-24 19:46:12 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\4003-20260624-182103.mat Equalised mean: -19.9566 dB
+2026-06-24 19:46:12 Difference -0.36056 dB
