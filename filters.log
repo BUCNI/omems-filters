@@ -1465,3 +1465,8 @@
 2026-06-24 19:48:10 Device 4003 Equalised mean: -19.7662 dB
 2026-06-24 19:48:10 Reference C:\Users\scan\Documents\MATLAB\omems-signal-processing\calibration-results\4003-20260624-182103.mat Equalised mean: -19.9566 dB
 2026-06-24 19:48:10 Difference 0.19036 dB
+2026-06-30 19:12:36 Logging to: ..\omems-filters\filters.log
+2026-06-30 19:15:41 Logging to: ..\omems-filters\filters.log
+2026-06-30 19:15:41 **** Device 4007 Calibration ****
+2026-06-30 19:15:42 omems-signal-processing repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
+2026-06-30 19:15:42 **** Device 4007 Calibration 4007-20260630-191542 ****
