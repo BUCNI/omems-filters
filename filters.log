@@ -1485,3 +1485,7 @@
 2026-07-03 14:12:32 **** Device 1238 Calibration ****
 2026-07-03 14:12:32 omems-signal-processing repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
 2026-07-03 14:12:32 **** Device 1238 Calibration 1238-20260703-141232 ****
+2026-07-03 18:06:58 Logging to: ..\omems-filters\filters.log
+2026-07-03 18:06:58 **** Device 1237 Calibration ****
+2026-07-03 18:06:58 omems-signal-processing repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
+2026-07-03 18:06:59 **** Device 1237 Calibration 1237-20260703-180658 ****
