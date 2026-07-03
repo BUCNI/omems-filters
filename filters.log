@@ -1506,3 +1506,5 @@
 2026-07-03 18:48:22 **** Device 4007 Calibration ****
 2026-07-03 18:48:22 omems-signal-processing repo commit: b7d0114 22-Jun-2026 15:28:10 +0000
 2026-07-03 18:48:22 **** Device 4007 Calibration 4007-20260703-184822 ****
+2026-07-03 18:49:13 **** New stereo filter 4007-20260703-184822---4008-20260703-184449-flat.mat (voicing: flat) ****
+2026-07-03 18:49:13 L/R checks: gain diff -0.00 dB, lag 0 samples (corr 0.934), target_dBC [85 85]
