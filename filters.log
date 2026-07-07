@@ -1516,3 +1516,5 @@
 2026-07-07 18:33:13 **** Device 1234 Calibration ****
 2026-07-07 18:33:13 omems-signal-processing repo commit: 1acef45 03-Jul-2026 23:00:08 +0000
 2026-07-07 18:33:14 **** Device 1234 Calibration 1234-20260707-183313 ****
+2026-07-07 18:33:37 **** New stereo filter 1233-20260707-183029---1234-20260707-183313-flat.mat (voicing: flat) ****
+2026-07-07 18:33:37 L/R checks: gain diff +0.02 dB, lag 0 samples (corr 0.995), target_dBC [85 85]
