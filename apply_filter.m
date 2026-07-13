@@ -1,3 +1,12 @@
+%% Configuration
+% Native sample rate of the calibration / equalisation filters. All
+% filters in the "filters" directory were measured at 44.1 kHz.
+FILTER_FS = 44100;
+% Audio sample rates accepted by this script. Audio at rates other than
+% FILTER_FS is handled by resampling the (short) filter kernel to the
+% audio rate with srconvert.m - the audio itself is never resampled.
+SUPPORTED_FS = [44100 48000];
+
 %% Get input and output locations
 %% WARNING - output can overwrite if existing files with same name are present
 uiwait(msgbox("Select the audio file(s) you want to filter.", "modal"));
@@ -56,14 +65,32 @@ opdir = uigetdir(pwd, 'Output Directory *** WARNING - WILL OVERWRITE EXISTING FI
 input_global_max = 0;
 output_global_max = 0;
 
+% Cache of filter kernels resampled to each audio rate encountered
+% (key: sample rate as string; value: kernel matrix at that rate).
+kernel_cache = containers.Map('KeyType', 'char', 'ValueType', 'any');
+kernel_cache(num2str(FILTER_FS)) = eqfilter;
+
 for f = string(file)
     input_full_path = fullfile(location,f{1});
     disp("Reading: "+ input_full_path+"...");
     [y,fs]=audioread(input_full_path);
 
-    if fs ~= 44100
-        error("Sampling rate " + fs + " samples/sec. is not supported. Currently only 44100 samples/sec. is supported.")
+    if ~ismember(fs, SUPPORTED_FS)
+        error("Sampling rate " + fs + " samples/sec. is not supported. " + ...
+            "Supported rates: " + strjoin(string(SUPPORTED_FS), ", ") + " samples/sec.")
     end
+
+    % Get the filter kernel at this file's sample rate, resampling the
+    % 44.1 kHz calibration kernel once per rate (cached thereafter).
+    if ~isKey(kernel_cache, num2str(fs))
+        disp("Resampling filter kernel from " + FILTER_FS + " to " + fs + " samples/sec. ...")
+        % Sinc (bandlimited) interpolation of the impulse response; the
+        % FILTER_FS/fs factor rescales the kernel so its transfer
+        % function (gain vs. physical frequency) is preserved at the
+        % new rate - see srconvert.m help.
+        kernel_cache(num2str(fs)) = srconvert(eqfilter, FILTER_FS, fs, 64) * (FILTER_FS / fs);
+    end
+    fkernel = kernel_cache(num2str(fs));
 
     switch size(y,2)
         case 1
@@ -81,7 +108,7 @@ for f = string(file)
 
     disp("Filtering...")
     for channel=1:2
-        y(:,channel) = conv(y(:,channel), eqfilter(:,channel), 'same');
+        y(:,channel) = conv(y(:,channel), fkernel(:,channel), 'same');
     end
 
     output_max = max(abs(y(:)));

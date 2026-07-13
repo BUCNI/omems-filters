@@ -27,6 +27,10 @@ The old OMEMS pair have serial numbers 1001 and 1002. The new pair have serial n
 For the new OMEMS pair select a file starting 4001... e.g:
 - "4001-20251218-130141---4002-20251218-131207.mat".
 
+### Sample rates: 44.1 and 48 kHz support
+
+"apply_filter.m" accepts audio files sampled at either 44100 or 48000 samples/sec. (a batch may mix both). The equalisation filters are calibrated at 44.1 kHz; for 48 kHz files the script automatically resamples the filter kernel (not your audio) to 48 kHz using the toolbox-free sinc-interpolation converter "srconvert.m", preserving the equalisation response to well under 0.01 dB. See [DUAL-RATE-NOTES.md](DUAL-RATE-NOTES.md) for technical details and measured accuracy.
+
 ### QA, Recalibration and Updated filters
 
 A regular, weekly, quality assureance (QA) procedure is being carried out to verify that the audio response of the OMEMS devices, both old and new, remains consistent with it's calibration. The QA results are logged to the "filters.log" file in the omems-filters Github repository.
