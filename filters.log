@@ -1533,3 +1533,7 @@
 2026-08-13 18:06:32 **** Device 4001 Calibration ****
 2026-08-13 18:06:32 omems-signal-processing repo commit: 1acef45 03-Jul-2026 23:00:08 +0000
 2026-08-13 18:06:33 **** Device 4001 Calibration 4001-20260813-180632 ****
+2026-08-13 18:09:01 Logging to: ..\omems-filters\filters.log
+2026-08-13 18:09:01 **** Device 4002 Calibration ****
+2026-08-13 18:09:02 omems-signal-processing repo commit: 1acef45 03-Jul-2026 23:00:08 +0000
+2026-08-13 18:09:02 **** Device 4002 Calibration 4002-20260813-180902 ****
