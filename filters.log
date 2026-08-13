@@ -1529,3 +1529,7 @@
 2026-08-13 16:45:38 **** Device 4002 Calibration 4002-20260813-164538 ****
 2026-08-13 16:56:12 **** New stereo filter 4001-20260813-164035---4002-20260813-164538-flat.mat (voicing: flat) ****
 2026-08-13 16:56:12 L/R checks: gain diff -0.01 dB, lag 0 samples (corr 0.995), target_dBC [85 85]
+2026-08-13 18:06:32 Logging to: ..\omems-filters\filters.log
+2026-08-13 18:06:32 **** Device 4001 Calibration ****
+2026-08-13 18:06:32 omems-signal-processing repo commit: 1acef45 03-Jul-2026 23:00:08 +0000
+2026-08-13 18:06:33 **** Device 4001 Calibration 4001-20260813-180632 ****
