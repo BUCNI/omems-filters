@@ -1541,3 +1541,5 @@
 2026-08-13 18:11:49 **** Device 4001 Calibration ****
 2026-08-13 18:11:49 omems-signal-processing repo commit: 1acef45 03-Jul-2026 23:00:08 +0000
 2026-08-13 18:11:50 **** Device 4001 Calibration 4001-20260813-181149 ****
+2026-08-13 18:12:55 **** New stereo filter 4001-20260813-181149---4002-20260813-180902-flat.mat (voicing: flat) ****
+2026-08-13 18:12:55 L/R checks: gain diff -0.01 dB, lag 0 samples (corr 0.976), target_dBC [85 85]
